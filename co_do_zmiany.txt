@@ -1,0 +1,7 @@
+1. usunąć v (4 features) z parsera
+
+0. obciąc dane przy uczeniu (pierwsze kilkaset k rekordów z monte carlo)
+dla kazdego pliku usunac bledy monte carlo 
+
+2. permutacje powinny byc dodawane na koncu pliku, nie jedno po drugim 
+3. sprawdzic wtedy modele 
