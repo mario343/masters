@@ -1,0 +1,8 @@
+transition,folder,tag,model,calibration,param_key,param_close,n_configs,train_acc,prob_file,crit_interp,crit_interp_err
+AC,c_a,LR,Logistic Regression,uncalibrated,K0,4.78,71998,1.0,LR_30_AC.txt,4.77550877767867,0.000807067638717
+AC,c_a,DT,Decision Tree,uncalibrated,K0,4.78,71998,1.0,DT_30_AC.txt,4.78070072704616,0.0007862981210952
+AC,c_a,RF,Random Forest,uncalibrated,K0,4.78,71998,1.0,RF_30_AC.txt,4.77983677102662,0.0005869348441589
+AC,c_a,GBT,Gradient Boosted Trees,uncalibrated,K0,4.78,71998,1.0,GBT_30_AC.txt,4.78083187568626,0.0006078648762641
+AC,c_a,KNN,kNN,uncalibrated,K0,4.77,69522,1.0,KNN_30_AC.txt,4.77138596415986,0.0006165283992335
+AC,c_a,SVM,SVM (RBF),uncalibrated,K0,4.77,69522,1.0,SVM_30_AC.txt,4.76783576993131,0.0004912155537082
+AC,c_a,NN,Neural Network,uncalibrated,K0,4.78,71998,1.0,NN_30_AC.txt,4.77503423846111,0.0008135895196738

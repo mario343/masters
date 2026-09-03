@@ -2,3 +2,7 @@
 data/* 
 venv/
 data/
+probabilities_for_reweighting/
+*.pdf
+*.png
+__pycache__/
