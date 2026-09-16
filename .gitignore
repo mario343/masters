@@ -6,3 +6,13 @@ probabilities_for_reweighting/
 *.pdf
 *.png
 __pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+phase-transitions-ml-source.zip
+
+# Archiwalne artefakty analiz cech są częścią dokumentacji badania.
+!notebooks/legacy/feature_analysis/correlation/results/
+!notebooks/legacy/feature_analysis/correlation/results/**

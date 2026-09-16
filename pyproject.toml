@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+    "setuptools>=68",
+    "wheel>=0.42",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phase-transitions-ml"
+version = "0.1.0"
+description = "Machine-learning pipelines for phase-transition analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.25,<2",
+    "pandas>=2.0,<3",
+    "scikit-learn>=1.2,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+]
+notebooks = [
+    "jupyterlab>=4,<5",
+    "ipykernel>=6,<7",
+    "matplotlib>=3.7,<4",
+]
+
+[tool.setuptools.packages.find]
+include = ["phase_transitions*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
